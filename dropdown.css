@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(admission\ form.jpg);
+    /* background-position: center; */
+    /* background-size: cover; */
+    font-family: sans-serif;
+}
+.menu_bar{
+    background-color: rgb(0,100,0);
+    width: 100%;
+    text-align: center;
+}
+.menu_bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu_bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 7px;
+}
+.menu_bar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.menu_bar ul li:hover{
+    background-color: #2bab0d;
+    border-radius: 3px;
+}
+.sub_menu_1{
+    display: none;
+}
+.menu_bar ul li:hover .sub_menu_1{
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+}
+.menu_bar ul li:hover .sub_menu_1 ul{
+    display: block;
+    /* margin: 15px; */
+}
+.menu_bar ul li:hover .sub_menu_1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    text-align: left;
+}
+.menu_bar ul li:hover .sub_menu_1 ul li:last-child{
+    border-bottom: none;
+}
+.menu_bar ul li:hover .sub_menu_1 ul li a:hover{
+    color: #b2ff00;
+}
+.sub_menu_2{
+    display: none;
+}
+
+.hower_me:hover .sub_menu_2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: rgb(0,100,0);
+}
+
+
+
+
+
+
+
+
